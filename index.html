@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tienda de Ropa Moderna</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+    }
+    header {
+      background-color: #111;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .contenedor {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 30px;
+    }
+    .producto {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 220px;
+      padding: 15px;
+      text-align: center;
+    }
+    .producto img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .producto h3 {
+      margin: 10px 0 5px;
+    }
+    .producto p {
+      margin: 5px 0;
+      font-weight: bold;
+      color: #333;
+    }
+    .producto button {
+      margin-top: 10px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .producto button:hover {
+      background-color: #218838;
+    }
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tienda de Ropa Moderna</h1>
+  </header>
+
+  <div class="contenedor">
+    <div class="producto">
+      <img src="imagenes/camisa.jpg" alt="Camisa Hombre">
+      <h3>Camisa Clásica</h3>
+      <p>$25.00</p>
+      <button>Comprar</button>
+    </div>
+    <div class="producto">
+      <img src="imagenes/vestido.jpg" alt="Vestido Mujer">
+      <h3>Vestido Floral</h3>
+      <p>$35.00</p>
+      <button>Comprar</button>
+    </div>
+    <div class="producto">
+      <img src="imagenes/chaqueta.jpg" alt="Chaqueta Hombre">
+      <h3>Chaqueta Casual</h3>
+      <p>$45.00</p>
+      <button>Comprar</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Tienda de Ropa Moderna - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
